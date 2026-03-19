@@ -148,6 +148,7 @@ p {
 }
 
 .cv-button{
+ display: inline-block;
  background-color: #052d2f;
  color: white;
  border: none;
@@ -207,6 +208,18 @@ p {
 
 .skills-container{
  padding-right: 45px;
+}
+
+.card-desc ol li{
+ border-bottom: 1px solid white;
+ padding-bottom: 0.5em;
+ margin-bottom: 0.5em;
+}
+
+.card-desc ol li:last-child{
+ border-bottom: none;
+ padding-bottom: 0;
+ margin-bottom: 0;
 }
 
 .skills-container li{
